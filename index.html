@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>중간고사 문제풀이</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>중간고사 문제풀이</h1>
+        <p>JSON 시험범위 데이터를 활용한 로컬 학습 웹앱</p>
+      </div>
+      <div class="status-row">
+        <span id="progressLabel">로딩 중...</span>
+        <span id="scoreLabel"></span>
+      </div>
+    </header>
+
+    <section class="controls card">
+      <div class="control-group">
+        <label for="sourceSelect">범위 선택</label>
+        <select id="sourceSelect"></select>
+      </div>
+      <div class="control-group">
+        <label for="pageSelect">페이지 선택</label>
+        <select id="pageSelect"></select>
+      </div>
+      <div class="control-group">
+        <label for="modeSelect">문제 유형</label>
+        <select id="modeSelect">
+          <option value="all">전체</option>
+          <option value="input">자유입력형</option>
+          <option value="choice">보기형</option>
+          <option value="note">노트 있는 문제</option>
+        </select>
+      </div>
+      <div class="control-group button-row">
+        <button id="loadButton" type="button">문제 불러오기</button>
+        <button id="reviewButton" type="button">오답 복습</button>
+      </div>
+    </section>
+
+    <section class="question-card card">
+      <div class="question-meta">
+        <span id="sourceLabel">범위: -</span>
+        <span id="pageLabel">페이지: -</span>
+      </div>
+      <div id="questionText" class="question-text">문제를 불러오세요.</div>
+      <div id="answerArea" class="answer-area"></div>
+      <div id="noteArea" class="note-area hidden"></div>
+      <div class="action-row">
+        <button id="checkButton" type="button">정답 확인</button>
+        <button id="showAnswerButton" type="button">정답 보기</button>
+        <button id="nextButton" type="button">다음 문제</button>
+      </div>
+      <div id="resultMessage" class="result-message"></div>
+    </section>
+
+    <section class="summary card hidden" id="summarySection">
+      <h2>학습 결과</h2>
+      <p id="summaryText"></p>
+      <div class="summary-buttons">
+        <button id="restartButton" type="button">다시 풀기</button>
+        <button id="clearWrongButton" type="button">오답 초기화</button>
+      </div>
+      <div class="wrong-list hidden" id="wrongListContainer">
+        <h3>오답 노트</h3>
+        <ul id="wrongList"></ul>
+      </div>
+    </section>
+
+    <footer class="app-footer">
+      <p>로컬에서 실행 가능한 바닐라 JavaScript 문제풀이 앱입니다.</p>
+    </footer>
+  </div>
+
+  <script src="midterm_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "title": "중간고사",
+  "questions": [
+    {
+      "id": 29,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "A: {} B: It was great to see you, but it's getting late. I really should go.",
+      "options": [],
+      "answer": "Got to go. See you around",
+      "note": "마침표 유무는 흐리지만 Got to go. See you around로 보임"
+    },
+    {
+      "id": 30,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "A: {}",
+      "options": [],
+      "answer": "It was great to see you, but it's getting late. I really should go.",
+      "note": "필기상 일부가 흐리지만 Exercise 6 표현과 대조하면 이 문장으로 보임"
+    },
+    {
+      "id": 31,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "A: {}",
+      "options": [],
+      "answer": "How's it going"
+    },
+    {
+      "id": 32,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "A: {}",
+      "options": [],
+      "answer": "What's up"
+    },
+    {
+      "id": 33,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "A: {}",
+      "options": [],
+      "answer": "Hello. How are you?",
+      "note": "물음표는 원문 기준으로 보완했으나 필기상은 다소 흐림"
+    }
+  ]
+}

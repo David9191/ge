@@ -1,0 +1,169 @@
+{
+  "title": "중간고사",
+  "questions": [
+    {
+      "id": 93,
+      "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Andy: {}, Max. What's {}?",
+      "options": ["going", "Hey", "How", "later", "see", "what's"],
+      "answer": "Hey, up",
+      "note": "두 번째 답은 보기의 what's를 활용한 표현 What's up으로 보임"
+    },
+    {
+      "id": 94,
+      "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Max: Hello, Kevin! So, how's it {}? {} was your vacation?",
+      "options": ["going", "Hey", "How", "later", "see", "what's"],
+      "answer": "going, How"
+    },
+    {
+      "id": 95,
+      "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Kevin: Great, thanks! Well, I gotta go to the bookstore. I'll catch up with you {}.",
+      "options": ["going", "Hey", "How", "later", "see", "what's"],
+      "answer": "later"
+    },
+    {
+      "id": 96,
+      "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Max: OK, {} you.",
+      "options": ["going", "Hey", "How", "later", "see", "what's"],
+      "answer": "see"
+    },
+    {
+      "id": 97,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Prof. Lopez: Max! Andy! {}!",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "Good afternoon"
+    },
+    {
+      "id": 98,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Max: {}, Professor Lopez.",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "Hello"
+    },
+    {
+      "id": 99,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Andy: {}?",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "How are you"
+    },
+    {
+      "id": 100,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Max: Uh ... {}, thanks!",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "We're fine"
+    },
+    {
+      "id": 101,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Prof. Lopez: Oh, excellent. Well, I'm going to a faculty meeting. {}!",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "Have a good weekend"
+    },
+    {
+      "id": 102,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Max: Thanks, you too! {}.",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "Nice to see you"
+    },
+    {
+      "id": 103,
+      "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Andy: {}!",
+      "options": ["We're fine", "Hello", "Have a good weekend", "How are you", "Nice to see you", "Take care", "Good afternoon"],
+      "answer": "Take care"
+    },
+    {
+      "id": 104,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Karen {} very formal.",
+      "options": ["is", "isn't"],
+      "answer": "is"
+    },
+    {
+      "id": 105,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "The speakers {} each other.",
+      "options": ["know", "don't know"],
+      "answer": "know"
+    },
+    {
+      "id": 106,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Ann {} more formal than Karen.",
+      "options": ["is", "isn't"],
+      "answer": "is"
+    },
+    {
+      "id": 107,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Both speakers {}.",
+      "options": ["greet each other", "have meetings"],
+      "answer": "greet each other"
+    },
+    {
+      "id": 108,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Karen {} to have a long conversation.",
+      "options": ["wants", "doesn't want"],
+      "answer": "doesn't want"
+    },
+    {
+      "id": 109,
+      "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "{} ends the conversation.",
+      "options": ["Karen", "Ann"],
+      "answer": "Karen"
+    },
+    {
+      "id": 110,
+      "title": "Rewrite Ann's lines to make them more appropriate.",
+      "type": "fill_in_blank",
+      "page": "5",
+      "question": "Ann: Good afternoon, Karen. How are you? / It's nice to see you. I want to talk to you about something.",
+      "options": [],
+      "answer": "Hi, Karen. How's it going? / OK. I'll catch up with you later.",
+      "note": "연필 답안이 보이지 않아 대화 맥락에 맞게 자연스럽게 재작성한 추정 답안"
+    }
+  ]
+}

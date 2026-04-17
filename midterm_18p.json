@@ -1,0 +1,173 @@
+{
+  "title": "중간고사",
+  "questions": [
+    {
+      "id": 52,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "We use the {} to talk about completed actions, the order of events, repeated actions, and past states.",
+      "options": [],
+      "answer": "simple past"
+    },
+    {
+      "id": 53,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "We use the {} to talk about actions in progress in the past or to describe a scene.",
+      "options": [],
+      "answer": "past continuous"
+    },
+    {
+      "id": 54,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "We use the past continuous for the {} action and the simple past for the {} action.",
+      "options": [],
+      "answer": "longer, shorter"
+    },
+    {
+      "id": 55,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "I went to sleep early last night.",
+      "options": [],
+      "answer": "s"
+    },
+    {
+      "id": 56,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "In the morning, I woke up, got up, and opened the window.",
+      "options": [],
+      "answer": "s"
+    },
+    {
+      "id": 57,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "The sun was shining, but it was raining.",
+      "options": [],
+      "answer": "c"
+    },
+    {
+      "id": 58,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "I looked at my watch three times.",
+      "options": [],
+      "answer": "s"
+    },
+    {
+      "id": 59,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "I couldn’t believe it was 9 a.m.!",
+      "options": [],
+      "answer": "s"
+    },
+    {
+      "id": 60,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "At 10 a.m., I was still getting ready for work.",
+      "options": [],
+      "answer": "c"
+    },
+    {
+      "id": 61,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "things that happened one after the other",
+      "options": [],
+      "answer": "2"
+    },
+    {
+      "id": 62,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "completed actions in the past",
+      "options": [],
+      "answer": "1"
+    },
+    {
+      "id": 63,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "repeated actions",
+      "options": [],
+      "answer": "4"
+    },
+    {
+      "id": 64,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "to describe a scene",
+      "options": [],
+      "answer": "3"
+    },
+    {
+      "id": 65,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "actions in progress in the past",
+      "options": [],
+      "answer": "6"
+    },
+    {
+      "id": 66,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "to describe past states",
+      "options": [],
+      "answer": "5"
+    },
+    {
+      "id": 67,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "Dr. David Eagleman, from Stanford University, {} time and {} a test to find out if time really does slow down when we are in danger.",
+      "options": [],
+      "answer": "studied, invented"
+    },
+    {
+      "id": 68,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "Volunteers {} backward from a height of 15 stories.",
+      "options": [],
+      "answer": "fell"
+    },
+    {
+      "id": 69,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "While they {}, they {} to read numbers flashing in front of them on two screens.",
+      "options": [],
+      "answer": "were falling, tried"
+    },
+    {
+      "id": 70,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "The results? Well, they couldn’t read the numbers, so time {} down for them.",
+      "options": [],
+      "answer": "didn't slow"
+    },
+    {
+      "id": 71,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "However, the fall {} only three seconds, but afterward volunteers said it {} much longer.",
+      "options": [],
+      "answer": "took, felt"
+    },
+    {
+      "id": 72,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "Dr. Eagleman’s test {} that time doesn’t slow down, but our memory of time slows down when we feel in danger.",
+      "options": [],
+      "answer": "proved"
+    }
+  ]
+}
