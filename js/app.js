@@ -13,7 +13,6 @@ const noteArea = document.getElementById('noteArea');
 const checkButton = document.getElementById('checkButton');
 const showAnswerButton = document.getElementById('showAnswerButton');
 const nextButton = document.getElementById('nextButton');
-const previousButton = document.getElementById('previousButton');
 const prevNavButton = document.getElementById('prevNavButton');
 const progressLabel = document.getElementById('progressLabel');
 const scoreLabel = document.getElementById('scoreLabel');
@@ -181,12 +180,12 @@ function renderQuestion() {
       const optionId = `option-${index}`;
       const label = document.createElement('label');
       label.className = 'option-label';
-      const radio = document.createElement('input');
-      radio.type = 'radio';
-      radio.name = 'answerOption';
-      radio.value = option;
-      radio.id = optionId;
-      label.appendChild(radio);
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.name = 'answerOption';
+      checkbox.value = option;
+      checkbox.id = optionId;
+      label.appendChild(checkbox);
       const span = document.createElement('span');
       span.textContent = option;
       label.appendChild(span);
@@ -228,25 +227,31 @@ function getCurrentAnswer() {
   const question = currentQuestions[currentIndex];
   if (!question) return '';
   if (Array.isArray(question.options) && question.options.length > 0) {
-    const selected = document.querySelector('input[name="answerOption"]:checked');
-    return selected ? selected.value : '';
+    const selected = document.querySelectorAll('input[name="answerOption"]:checked');
+    const selectedValues = Array.from(selected).map(checkbox => checkbox.value);
+    return selectedValues.join(', ');
   }
   const input = document.getElementById('freeInput');
   return input ? input.value : '';
 }
 
-function answerVariants(answer) {
-  return answer
-    .split(/[\/,]+/) 
-    .map((part) => normalizeAnswer(part))
-    .filter(Boolean);
-}
-
 function isCorrectAnswer(inputValue, answerText) {
   const normalizedInput = normalizeAnswer(inputValue);
   if (!normalizedInput) return false;
-  const variants = answerVariants(answerText);
-  return variants.some((variant) => variant === normalizedInput);
+  
+  // 입력값을 여러 부분으로 나누기 (쉼표, 공백 등으로 구분)
+  const inputParts = normalizedInput.split(/[,\s]+/).map(part => part.trim()).filter(Boolean);
+  const answerVariants = answerText.split(/[\/,]+/).map(part => normalizeAnswer(part.trim())).filter(Boolean);
+  
+  // 입력한 부분의 개수와 정답 부분의 개수가 같아야 함
+  if (inputParts.length !== answerVariants.length) {
+    return false;
+  }
+  
+  // 각 부분이 일치하는지 확인
+  return inputParts.every(inputPart => 
+    answerVariants.some(answerPart => answerPart === inputPart)
+  );
 }
 
 function markWrong(questionId) {
@@ -275,7 +280,22 @@ function checkAnswer() {
     return;
   }
 
-  const correct = isCorrectAnswer(userAnswer, String(question.answer));
+  let correct = false;
+  
+  // 옵션 선택인 경우
+  if (Array.isArray(question.options) && question.options.length > 0) {
+    const selected = document.querySelectorAll('input[name="answerOption"]:checked');
+    const selectedValues = Array.from(selected).map(checkbox => checkbox.value).sort();
+    const correctAnswers = String(question.answer).split(/[\/,]+/).map(ans => ans.trim()).sort();
+    
+    // 선택된 개수와 정답 개수가 같고, 모든 선택이 정답에 포함되는지 확인
+    correct = selectedValues.length === correctAnswers.length && 
+              selectedValues.every(val => correctAnswers.includes(val));
+  } else {
+    // 텍스트 입력인 경우
+    correct = isCorrectAnswer(userAnswer, String(question.answer));
+  }
+
   if (correct) {
     resultMessage.textContent = '정답입니다!';
     resultMessage.className = 'result-message correct';
@@ -382,15 +402,8 @@ function clearWrong() {
 
 loadButton.addEventListener('click', loadQuestions);
 reviewButton.addEventListener('click', reviewWrong);
-console.log('previousButton:', previousButton);
-previousButton.addEventListener('click', () => {
-  console.log('이전 문제 버튼 클릭');
-  if (currentIndex > 0) {
-    currentIndex -= 1;
-    renderQuestion();
-  }
-});
 prevNavButton.addEventListener('click', () => {
+  console.log('이전 문제 버튼 클릭');
   if (currentIndex > 0) {
     currentIndex -= 1;
     renderQuestion();
