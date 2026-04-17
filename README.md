@@ -7,11 +7,6 @@
 1. `index.html` 파일을 브라우저에서 엽니다.
 2. 또는 터미널에서 로컬 서버를 실행합니다:
 
-```bash
-cd /Users/david/Documents/총신대학교/2026-01/GE
-python3 -m http.server 8000
-```
-
 그런 다음 웹 브라우저에서 `http://localhost:8000` 을 방문하세요.
 
 ## 기능
