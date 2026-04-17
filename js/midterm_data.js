@@ -753,7 +753,7 @@ const MIDTERM_DATA = {
         "id": 52,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "We use the {} to talk about completed actions, the order of events, repeated actions, and past states.",
+        "question": "We use the {} to talk about completed actions, the order of events, repeated actions, and past states.\n(simple past, past continuous)",
         "options": [],
         "answer": "simple past"
       },
@@ -761,7 +761,7 @@ const MIDTERM_DATA = {
         "id": 53,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "We use the {} to talk about actions in progress in the past or to describe a scene.",
+        "question": "We use the {} to talk about actions in progress in the past or to describe a scene.\n(simple past, past continuous)",
         "options": [],
         "answer": "past continuous"
       },
@@ -769,111 +769,63 @@ const MIDTERM_DATA = {
         "id": 54,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "We use the past continuous for the {} action and the simple past for the {} action.",
+        "question": "We use the past continuous for the {} action and the simple past for the {} action.\n(longer, shorter)",
         "options": [],
         "answer": "longer, shorter"
       },
       {
-        "id": 55,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "I went to sleep early last night.",
-        "options": [],
-        "answer": "s"
+      "id": 55,
+      "type": "fill_in_blank",
+      "page": "18",
+      "question": "I went to sleep early last night.",
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "simple past, completed actions in the past"
       },
       {
         "id": 56,
         "type": "fill_in_blank",
         "page": "18",
         "question": "In the morning, I woke up, got up, and opened the window.",
-        "options": [],
-        "answer": "s"
+        "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+        "answer": "simple past, things that happened one after the other"
       },
       {
         "id": 57,
         "type": "fill_in_blank",
         "page": "18",
         "question": "The sun was shining, but it was raining.",
-        "options": [],
-        "answer": "c"
+        "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+        "answer": "past continuous, to describe a scene"
       },
       {
         "id": 58,
         "type": "fill_in_blank",
         "page": "18",
         "question": "I looked at my watch three times.",
-        "options": [],
-        "answer": "s"
+        "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+        "answer": "simple past, repeated actions"
       },
       {
         "id": 59,
         "type": "fill_in_blank",
         "page": "18",
         "question": "I couldn’t believe it was 9 a.m.!",
-        "options": [],
-        "answer": "s"
+        "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+        "answer": "simple past, to describe past states"
       },
       {
         "id": 60,
         "type": "fill_in_blank",
         "page": "18",
         "question": "At 10 a.m., I was still getting ready for work.",
-        "options": [],
-        "answer": "c"
-      },
-      {
-        "id": 61,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "things that happened one after the other",
-        "options": [],
-        "answer": "2"
-      },
-      {
-        "id": 62,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "completed actions in the past",
-        "options": [],
-        "answer": "1"
-      },
-      {
-        "id": 63,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "repeated actions",
-        "options": [],
-        "answer": "4"
-      },
-      {
-        "id": 64,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "to describe a scene",
-        "options": [],
-        "answer": "3"
-      },
-      {
-        "id": 65,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "actions in progress in the past",
-        "options": [],
-        "answer": "6"
-      },
-      {
-        "id": 66,
-        "type": "fill_in_blank",
-        "page": "18",
-        "question": "to describe past states",
-        "options": [],
-        "answer": "5"
+        "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+        "answer": "past continuous, actions in progress in the past"
       },
       {
         "id": 67,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "Dr. David Eagleman, from Stanford University, {} time and {} a test to find out if time really does slow down when we are in danger.",
+        "question": "Dr. David Eagleman, from Stanford University, {} time and {} a test to find out if time really does slow down when we are in danger. (study, invent)",
         "options": [],
         "answer": "studied, invented"
       },
@@ -881,7 +833,7 @@ const MIDTERM_DATA = {
         "id": 68,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "Volunteers {} backward from a height of 15 stories.",
+        "question": "Volunteers {} backward from a height of 15 stories. (fall)",
         "options": [],
         "answer": "fell"
       },
@@ -889,7 +841,7 @@ const MIDTERM_DATA = {
         "id": 69,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "While they {}, they {} to read numbers flashing in front of them on two screens.",
+        "question": "While they {}, they {} to read numbers flashing in front of them on two screens. (fall, try)",
         "options": [],
         "answer": "were falling, tried"
       },
@@ -897,7 +849,7 @@ const MIDTERM_DATA = {
         "id": 70,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "The results? Well, they couldn’t read the numbers, so time {} down for them.",
+        "question": "The results? Well, they couldn’t read the numbers, so time {} down for them. (not slow)",
         "options": [],
         "answer": "didn't slow"
       },
@@ -905,7 +857,7 @@ const MIDTERM_DATA = {
         "id": 71,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "However, the fall {} only three seconds, but afterward volunteers said it {} much longer.",
+        "question": "However, the fall {} only three seconds, but afterward volunteers said it {} much longer. (take, feel)",
         "options": [],
         "answer": "took, felt"
       },
@@ -913,7 +865,7 @@ const MIDTERM_DATA = {
         "id": 72,
         "type": "fill_in_blank",
         "page": "18",
-        "question": "Dr. Eagleman’s test {} that time doesn’t slow down, but our memory of time slows down when we feel in danger.",
+        "question": "Dr. Eagleman’s test {} that time doesn’t slow down, but our memory of time slows down when we feel in danger. (prove)",
         "options": [],
         "answer": "proved"
       }
@@ -928,7 +880,7 @@ const MIDTERM_DATA = {
         "page": "20",
         "question": "We can use the noun time with different parst of speech.\nAdjective + time: the first time, the last time, the next time, a short time, a long time, this time, that time\npreposition + time: on time, in time, over time, through time\nverb + time: spend time, waste time, make time, run out of time",
         "options": [],
-        "answer": "on"
+        "answer": ""
       },
       {
         "id": 74,
@@ -1006,7 +958,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "say",
+      "question": "say",
       "choices": [],
       "answer": "said",
       "note": "뜻: 말하다"
@@ -1018,7 +970,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "make",
+      "question": "make",
       "choices": [],
       "answer": "made",
       "note": "뜻: 만들다"
@@ -1030,7 +982,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "go",
+      "question": "go",
       "choices": [],
       "answer": "went",
       "note": "뜻: 가다"
@@ -1042,7 +994,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "take",
+      "question": "take",
       "choices": [],
       "answer": "took",
       "note": "뜻: 가져가다, 데려가다, 취하다"
@@ -1054,7 +1006,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "come",
+      "question": "come",
       "choices": [],
       "answer": "came",
       "note": "뜻: 오다"
@@ -1066,7 +1018,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "see",
+      "question": "see",
       "choices": [],
       "answer": "saw",
       "note": "뜻: 보다"
@@ -1078,7 +1030,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "know",
+      "question": "know",
       "choices": [],
       "answer": "knew",
       "note": "뜻: 알다"
@@ -1090,7 +1042,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "get",
+      "question": "get",
       "choices": [],
       "answer": "got",
       "note": "뜻: 얻다, 받다, 도착하다"
@@ -1102,7 +1054,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "give",
+      "question": "give",
       "choices": [],
       "answer": "gave",
       "note": "뜻: 주다"
@@ -1114,7 +1066,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 1",
       "type": "irregular_verb",
-      "prompt": "find",
+      "question": "find",
       "choices": [],
       "answer": "found",
       "note": "뜻: 찾다, 발견하다"
@@ -1126,7 +1078,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "think",
+      "question": "think",
       "choices": [],
       "answer": "thought",
       "note": "뜻: 생각하다"
@@ -1138,7 +1090,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "tell",
+      "question": "tell",
       "choices": [],
       "answer": "told",
       "note": "뜻: 말하다, 알려주다"
@@ -1150,7 +1102,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "become",
+      "question": "become",
       "choices": [],
       "answer": "became",
       "note": "뜻: ~이 되다"
@@ -1162,7 +1114,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "show",
+      "question": "show",
       "choices": [],
       "answer": "showed",
       "note": "뜻: 보여주다"
@@ -1174,7 +1126,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "leave",
+      "question": "leave",
       "choices": [],
       "answer": "left",
       "note": "뜻: 떠나다, 남기다"
@@ -1186,7 +1138,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "feel",
+      "question": "feel",
       "choices": [],
       "answer": "felt",
       "note": "뜻: 느끼다"
@@ -1198,7 +1150,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "put",
+      "question": "put",
       "choices": [],
       "answer": "put",
       "note": "뜻: 두다, 놓다"
@@ -1210,7 +1162,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "bring",
+      "question": "bring",
       "choices": [],
       "answer": "brought",
       "note": "뜻: 가져오다"
@@ -1222,7 +1174,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "begin",
+      "question": "begin",
       "choices": [],
       "answer": "began",
       "note": "뜻: 시작하다"
@@ -1234,7 +1186,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 2",
       "type": "irregular_verb",
-      "prompt": "keep",
+      "question": "keep",
       "choices": [],
       "answer": "kept",
       "note": "뜻: 유지하다, 계속하다"
@@ -1246,7 +1198,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "hold",
+      "question": "hold",
       "choices": [],
       "answer": "held",
       "note": "뜻: 잡다, 들다, 개최하다"
@@ -1258,7 +1210,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "write",
+      "question": "write",
       "choices": [],
       "answer": "wrote",
       "note": "뜻: 쓰다"
@@ -1270,7 +1222,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "stand",
+      "question": "stand",
       "choices": [],
       "answer": "stood",
       "note": "뜻: 서다"
@@ -1282,7 +1234,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "hear",
+      "question": "hear",
       "choices": [],
       "answer": "heard",
       "note": "뜻: 듣다"
@@ -1294,7 +1246,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "let",
+      "question": "let",
       "choices": [],
       "answer": "let",
       "note": "뜻: ~하게 하다, 허락하다"
@@ -1306,7 +1258,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "mean",
+      "question": "mean",
       "choices": [],
       "answer": "meant",
       "note": "뜻: 의미하다"
@@ -1318,7 +1270,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "set",
+      "question": "set",
       "choices": [],
       "answer": "set",
       "note": "뜻: 놓다, 정하다"
@@ -1330,7 +1282,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "meet",
+      "question": "meet",
       "choices": [],
       "answer": "met",
       "note": "뜻: 만나다"
@@ -1342,7 +1294,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "run",
+      "question": "run",
       "choices": [],
       "answer": "ran",
       "note": "뜻: 달리다, 운영하다"
@@ -1354,7 +1306,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 3",
       "type": "irregular_verb",
-      "prompt": "pay",
+      "question": "pay",
       "choices": [],
       "answer": "paid",
       "note": "뜻: 지불하다"
@@ -1366,7 +1318,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "sit",
+      "question": "sit",
       "choices": [],
       "answer": "sat",
       "note": "뜻: 앉다"
@@ -1378,7 +1330,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "speak",
+      "question": "speak",
       "choices": [],
       "answer": "spoke",
       "note": "뜻: 말하다"
@@ -1390,7 +1342,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "lie",
+      "question": "lie",
       "choices": [],
       "answer": "lay",
       "note": "뜻: 눕다"
@@ -1402,7 +1354,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "lead",
+      "question": "lead",
       "choices": [],
       "answer": "led",
       "note": "뜻: 이끌다"
@@ -1414,7 +1366,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "read",
+      "question": "read",
       "choices": [],
       "answer": "read",
       "note": "뜻: 읽다, 철자는 같고 발음이 달라짐"
@@ -1426,7 +1378,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "grow",
+      "question": "grow",
       "choices": [],
       "answer": "grew",
       "note": "뜻: 자라다, 성장하다"
@@ -1438,7 +1390,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "lose",
+      "question": "lose",
       "choices": [],
       "answer": "lost",
       "note": "뜻: 잃다"
@@ -1450,7 +1402,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "fall",
+      "question": "fall",
       "choices": [],
       "answer": "fell",
       "note": "뜻: 떨어지다"
@@ -1462,7 +1414,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "send",
+      "question": "send",
       "choices": [],
       "answer": "sent",
       "note": "뜻: 보내다"
@@ -1474,7 +1426,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 4",
       "type": "irregular_verb",
-      "prompt": "build",
+      "question": "build",
       "choices": [],
       "answer": "built",
       "note": "뜻: 짓다, 세우다"
@@ -1486,7 +1438,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "understand",
+      "question": "understand",
       "choices": [],
       "answer": "understood",
       "note": "뜻: 이해하다"
@@ -1498,7 +1450,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "draw",
+      "question": "draw",
       "choices": [],
       "answer": "drew",
       "note": "뜻: 그리다"
@@ -1510,7 +1462,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "break",
+      "question": "break",
       "choices": [],
       "answer": "broke",
       "note": "뜻: 깨뜨리다, 부수다"
@@ -1522,7 +1474,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "spend",
+      "question": "spend",
       "choices": [],
       "answer": "spent",
       "note": "뜻: 쓰다, 소비하다, 보내다"
@@ -1534,7 +1486,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "cut",
+      "question": "cut",
       "choices": [],
       "answer": "cut",
       "note": "뜻: 자르다"
@@ -1546,7 +1498,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "rise",
+      "question": "rise",
       "choices": [],
       "answer": "rose",
       "note": "뜻: 오르다, 상승하다"
@@ -1558,7 +1510,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "drive",
+      "question": "drive",
       "choices": [],
       "answer": "drove",
       "note": "뜻: 운전하다"
@@ -1570,7 +1522,7 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "buy",
+      "question": "buy",
       "choices": [],
       "answer": "bought",
       "note": "뜻: 사다"
@@ -1582,10 +1534,22 @@ const MIDTERM_DATA = {
       "section": "Irregular Verbs",
       "page": "Level 5",
       "type": "irregular_verb",
-      "prompt": "wear",
+      "question": "wear",
       "choices": [],
       "answer": "wore",
       "note": "뜻: 입다, 착용하다"
+    },
+    {
+      "id": 160,
+      "title": "Irregular Verbs",
+      "source": "Document",
+      "section": "Irregular Verbs",
+      "page": "Level 5",
+      "type": "irregular_verb",
+      "question": "choose",
+      "choices": [],
+      "answer": "chose",
+      "note": "뜻: 고르다"
     }
   ]
   }

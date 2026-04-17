@@ -5,7 +5,7 @@
       "id": 52,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "We use the {} to talk about completed actions, the order of events, repeated actions, and past states.",
+      "question": "We use the {} to talk about completed actions, the order of events, repeated actions, and past states.\n(simple past, past continuous)",
       "options": [],
       "answer": "simple past"
     },
@@ -13,7 +13,7 @@
       "id": 53,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "We use the {} to talk about actions in progress in the past or to describe a scene.",
+      "question": "We use the {} to talk about actions in progress in the past or to describe a scene.\n(simple past, past continuous)",
       "options": [],
       "answer": "past continuous"
     },
@@ -21,7 +21,7 @@
       "id": 54,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "We use the past continuous for the {} action and the simple past for the {} action.",
+      "question": "We use the past continuous for the {} action and the simple past for the {} action.\n(longer, shorter)",
       "options": [],
       "answer": "longer, shorter"
     },
@@ -30,102 +30,54 @@
       "type": "fill_in_blank",
       "page": "18",
       "question": "I went to sleep early last night.",
-      "options": [],
-      "answer": "s"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "simple past, completed actions in the past"
     },
     {
       "id": 56,
       "type": "fill_in_blank",
       "page": "18",
       "question": "In the morning, I woke up, got up, and opened the window.",
-      "options": [],
-      "answer": "s"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "simple past, things that happened one after the other"
     },
     {
       "id": 57,
       "type": "fill_in_blank",
       "page": "18",
       "question": "The sun was shining, but it was raining.",
-      "options": [],
-      "answer": "c"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "past continuous, to describe a scene"
     },
     {
       "id": 58,
       "type": "fill_in_blank",
       "page": "18",
       "question": "I looked at my watch three times.",
-      "options": [],
-      "answer": "s"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "simple past, repeated actions"
     },
     {
       "id": 59,
       "type": "fill_in_blank",
       "page": "18",
       "question": "I couldn’t believe it was 9 a.m.!",
-      "options": [],
-      "answer": "s"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "simple past, to describe past states"
     },
     {
       "id": 60,
       "type": "fill_in_blank",
       "page": "18",
       "question": "At 10 a.m., I was still getting ready for work.",
-      "options": [],
-      "answer": "c"
-    },
-    {
-      "id": 61,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "things that happened one after the other",
-      "options": [],
-      "answer": "2"
-    },
-    {
-      "id": 62,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "completed actions in the past",
-      "options": [],
-      "answer": "1"
-    },
-    {
-      "id": 63,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "repeated actions",
-      "options": [],
-      "answer": "4"
-    },
-    {
-      "id": 64,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "to describe a scene",
-      "options": [],
-      "answer": "3"
-    },
-    {
-      "id": 65,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "actions in progress in the past",
-      "options": [],
-      "answer": "6"
-    },
-    {
-      "id": 66,
-      "type": "fill_in_blank",
-      "page": "18",
-      "question": "to describe past states",
-      "options": [],
-      "answer": "5"
+      "options": ["simple past", "past continuous", "things that happened one after the other", "completed actions in the past", "repeated actions", "to describe a scene", "actions in progress in the past", "to describe past states"],
+      "answer": "past continuous, actions in progress in the past"
     },
     {
       "id": 67,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "Dr. David Eagleman, from Stanford University, {} time and {} a test to find out if time really does slow down when we are in danger.",
+      "question": "Dr. David Eagleman, from Stanford University, {} time and {} a test to find out if time really does slow down when we are in danger. (study, invent)",
       "options": [],
       "answer": "studied, invented"
     },
@@ -133,7 +85,7 @@
       "id": 68,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "Volunteers {} backward from a height of 15 stories.",
+      "question": "Volunteers {} backward from a height of 15 stories. (fall)",
       "options": [],
       "answer": "fell"
     },
@@ -141,7 +93,7 @@
       "id": 69,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "While they {}, they {} to read numbers flashing in front of them on two screens.",
+      "question": "While they {}, they {} to read numbers flashing in front of them on two screens. (fall, try)",
       "options": [],
       "answer": "were falling, tried"
     },
@@ -149,7 +101,7 @@
       "id": 70,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "The results? Well, they couldn’t read the numbers, so time {} down for them.",
+      "question": "The results? Well, they couldn’t read the numbers, so time {} down for them. (not slow)",
       "options": [],
       "answer": "didn't slow"
     },
@@ -157,7 +109,7 @@
       "id": 71,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "However, the fall {} only three seconds, but afterward volunteers said it {} much longer.",
+      "question": "However, the fall {} only three seconds, but afterward volunteers said it {} much longer. (take, feel)",
       "options": [],
       "answer": "took, felt"
     },
@@ -165,7 +117,7 @@
       "id": 72,
       "type": "fill_in_blank",
       "page": "18",
-      "question": "Dr. Eagleman’s test {} that time doesn’t slow down, but our memory of time slows down when we feel in danger.",
+      "question": "Dr. Eagleman’s test {} that time doesn’t slow down, but our memory of time slows down when we feel in danger. (prove)",
       "options": [],
       "answer": "proved"
     }

@@ -174,6 +174,14 @@ function renderQuestion() {
   sourceLabel.textContent = `범위: ${question.sourceLabel}`;
   pageLabel.textContent = `페이지: ${question.page || '-'}`;
 
+  const hasAnswer = question.answer != null && String(question.answer).trim() !== '';
+  if (!hasAnswer) {
+    showAnswerButton.classList.add('hidden');
+    renderProgress();
+    return;
+  }
+
+  showAnswerButton.classList.remove('hidden');
   if (Array.isArray(question.options) && question.options.length > 0) {
     const shuffled = [...question.options].sort(() => Math.random() - 0.5);
     const fieldset = document.createElement('div');
@@ -240,19 +248,10 @@ function isCorrectAnswer(inputValue, answerText) {
   const normalizedInput = normalizeAnswer(inputValue);
   if (!normalizedInput) return false;
   
-  // 입력값을 여러 부분으로 나누기 (쉼표, 공백 등으로 구분)
-  const inputParts = normalizedInput.split(/[,\s]+/).map(part => part.trim()).filter(Boolean);
   const answerVariants = answerText.split(/[\/,]+/).map(part => normalizeAnswer(part.trim())).filter(Boolean);
   
-  // 입력한 부분의 개수와 정답 부분의 개수가 같아야 함
-  if (inputParts.length !== answerVariants.length) {
-    return false;
-  }
-  
-  // 각 부분이 일치하는지 확인
-  return inputParts.every(inputPart => 
-    answerVariants.some(answerPart => answerPart === inputPart)
-  );
+  // 입력값이 정답 변형 중 하나와 정확히 일치하는지 확인
+  return answerVariants.some(answerPart => answerPart === normalizedInput);
 }
 
 function markWrong(questionId) {
@@ -274,6 +273,13 @@ function markCorrect(questionId) {
 function checkAnswer() {
   const question = currentQuestions[currentIndex];
   if (!question) return;
+  const hasAnswer = question.answer != null && String(question.answer).trim() !== '';
+  if (!hasAnswer) {
+    resultMessage.textContent = '이 문제는 정답이 등록되어 있지 않습니다.';
+    resultMessage.className = 'result-message incorrect';
+    return;
+  }
+
   const userAnswer = getCurrentAnswer();
   if (!userAnswer.trim()) {
     resultMessage.textContent = '정답을 입력하거나 보기를 선택해주세요.';
