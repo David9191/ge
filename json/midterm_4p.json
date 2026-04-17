@@ -1,0 +1,93 @@
+{
+    "title": "중간고사",
+    "questions": [
+        {
+            "id": 1,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "look forward to(be excited about)",
+            "options": [],
+            "answer": "기대하다"
+        },
+        {
+            "id": 2,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "keep in touch with(stay in contact with)",
+            "options": [],
+            "answer": "연락을 유지하다"
+        },
+        {
+            "id": 3,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "have an influence on(affect someone or something)",
+            "options": [],
+            "answer": "~에게 영향을 미치다"
+        },
+        {
+            "id": 4,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "look up to someone(admire)",
+            "options": [],
+            "answer": "존경하다"
+        },
+        {
+            "id": 5,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "deal with(manage (a difficult situation))",
+            "options": [],
+            "answer": "(어려운 상황을)다루다, 대처하다"
+        },
+        {
+            "id": 6,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "Somebody I really admire is my boss. I {} up to him a lot",
+            "options": [],
+            "answer": "look"
+        },
+        {
+            "id": 7,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "We sometimes disagree, but we always {} it out in the end.",
+            "options": [],
+            "answer": "work"
+        },
+        {
+            "id": 8,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "In my job, I need to {} with some difficult customers.",
+            "options": [],
+            "answer": "deal"
+        },
+        {
+            "id": 9,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "I {} forward to meeting next week.",
+            "options": [],
+            "answer": "look"
+        },
+        {
+            "id": 10,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "Facebook and other social media have an influence on how we communicate.",
+            "options": [],
+            "answer": "influence"
+        },
+        {
+            "id": 11,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "Technology can help family members living away from each other to {} in touch.",
+            "options": [],
+            "answer": "keep"
+        }
+    ]
+}

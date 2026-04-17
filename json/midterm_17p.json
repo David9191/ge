@@ -1,0 +1,45 @@
+{
+  "title": "중간고사",
+  "questions": [
+    {
+      "id": 48,
+      "type": "fill_in_blank",
+      "page": "17",
+      "question": "{} and {} are the past forms of is, isn't, am, and am not.",
+      "options": [],
+      "answer": "was, wasn't"
+    },
+    {
+      "id": 49,
+      "type": "fill_in_blank",
+      "page": "17",
+      "question": "{} and {} are the past forms of are and aren't.",
+      "options": [],
+      "answer": "were, weren't"
+    },
+    {
+        "id": 50,
+        "type": "fill_in_blank",
+        "page": "17",
+        "question": "We often use was/were with past time expressions like last week, in 2003, 500 years ago, or yesterday. In the nineteenth century, Detroit was an important business center. We also use there was/wasn't and there were/weren't to talk about things in the past. There were lots of jobs in the car industry. People left the city because there wasn't a future for them there.",
+        "options": [],
+        "answer": ""
+    },
+    {
+      "id": 51,
+      "type": "fill_in_blank",
+      "page": "17",
+      "question": "I grew up in a small village. There {} only 4,000 people! It was a friendly place, and I liked it, but I remember {} a lot to do after school or on weekends. There {} any big stores, for example, and there {} a movie theater either. When I went back recently, I was surprised. It was so different! There {} a huge shopping center, a new sports stadium, and even a hotel. There {} lots of new houses and people everywhere. To be honest, I don’t think I like it anymore!",
+      "options": ["there was", "there were", "there wasn't", "there weren't"],
+      "answer": "were, there wasn't, wasn't, wasn't, was, were"
+    },
+    {
+      "id": 52,
+      "type": "fill_in_blank",
+      "page": "17",
+      "question": "My family lived in Taiwan when I {} younger. We {} in the south for three years, and I really enjoyed my time there. Our apartment {} very large, but {} a small field nearby. I remember {} some banana trees in the field. They {} large trees, but they had lots of bananas. We lived in a city, and {} many places to play, so all the children from the neighborhood went to this field. Then one summer, the owner of the field cut down all the trees and built a parking lot. We were sad because {} anywhere to play.",
+      "options": ["was", "were", "wasn't", "there was", "there were", "there wasn't", "there weren't", "there wasn't"],
+      "answer": "was, were, wasn't, there was, there were, weren't, there weren't, there wasn't"
+    }
+  ]
+}

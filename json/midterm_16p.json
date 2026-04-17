@@ -1,0 +1,62 @@
+{
+  "title": "중간고사",
+  "questions": [
+    {
+      "id": 41,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "abandon (leave)",
+      "options": [],
+      "answer": "버리다, 떠나다"
+    },
+    {
+      "id": 42,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "benefit (advantage)",
+      "options": [],
+      "answer": "이득, 장점"
+    },
+    {
+      "id": 43,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "decrease (decline)",
+      "options": [],
+      "answer": "감소, 하락"
+    },
+    {
+      "id": 44,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "growth (rise)",
+      "options": [],
+      "answer": "상승, 증가",
+      "note": "growth와 rise는 원문 매칭 기준으로 작성함"
+    },
+    {
+      "id": 45,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "recover (improve)",
+      "options": [],
+      "answer": "개선하다, 향상"
+    },
+    {
+      "id": 46,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "replace (take the place of)",
+      "options": [],
+      "answer": "교체하다, 대신하다"
+    },
+    {
+      "id": 47,
+      "type": "fill_in_blank",
+      "page": "16",
+      "question": "reverse (undo)",
+      "options": [],
+      "answer": "취소하다, 되돌리다"
+    }
+  ]
+}

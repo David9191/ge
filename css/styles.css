@@ -1,0 +1,228 @@
+:root {
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --surface-strong: #eef3fb;
+  --border: #d7dbe8;
+  --text: #2f3b4c;
+  --muted: #6e7a8a;
+  --primary: #3751ff;
+  --success: #2e8b57;
+  --danger: #d14343;
+  --accent: #ff9f1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Apple SD Gothic Neo', 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.app-header,
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(38, 63, 117, 0.06);
+  padding: 20px;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.status-row {
+  margin-top: 16px;
+  display: flex;
+  gap: 14px;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+
+.controls {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control-group label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.control-group select,
+.control-group button {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.question-card {
+  margin-bottom: 20px;
+}
+
+.question-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  color: var(--muted);
+}
+
+.question-text {
+  margin: 0 0 18px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.answer-area {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.answer-area input[type='text'] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  font-size: 16px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+  background: var(--surface-strong);
+}
+
+.option-label:hover {
+  border-color: var(--primary);
+}
+
+.action-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.action-row button,
+.summary-buttons button {
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.action-row button:hover,
+.summary-buttons button:hover {
+  opacity: 0.95;
+}
+
+.result-message {
+  min-height: 24px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.result-message.correct {
+  color: var(--success);
+}
+
+.result-message.incorrect {
+  color: var(--danger);
+}
+
+.note-area {
+  margin-top: 12px;
+  padding: 14px 16px;
+  background: #fff8dc;
+  border-radius: 12px;
+  border: 1px solid #ffe7a1;
+  color: var(--text);
+}
+
+.hidden {
+  display: none;
+}
+
+.summary {
+  margin-bottom: 20px;
+}
+
+.summary-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.wrong-list ul,
+.wrong-list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrong-list li {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.wrong-list li:last-child {
+  border-bottom: none;
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+@media (min-width: 720px) {
+  .controls {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
