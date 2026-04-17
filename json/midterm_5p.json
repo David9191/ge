@@ -62,12 +62,12 @@
       "id": 18,
       "type": "fill_in_blank",
       "page": "5",
-      "question": "Research {} that, as a result, our sense of identity is {}.",
+      "question": "Research {} that, as a result, our sense of identity {}.",
       "options": [
         "shows",
         "is showing",
-        "is changing",
-        "changes"
+        "changes",
+        "is changing"
       ],
       "answer": "shows, is changing"
     },
@@ -120,7 +120,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "{} you {} text messages every day?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Do, send"
     },
     {
@@ -128,7 +128,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "{} you {} of getting a new cell phone?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Are, thinking"
     },
     {
@@ -136,7 +136,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "{} you {} too much time on the Internet during the week?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Do, spend"
     },
     {
@@ -144,7 +144,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "{} you {} to check your email on your cell phone or tablet?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Do, prefer"
     },
     {
@@ -152,7 +152,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "{} you {} any electronic devices with you right now?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Are, carrying",
       "note": "두 번째 답은 carrying으로 보임"
     },
@@ -161,7 +161,7 @@
       "type": "fill_in_blank",
       "page": "5",
       "question": "In general, {} you {} social media sites like Facebook a lot?",
-      "options": [],
+      "options": ["prefer","spend", "carry", "use", "send", "think"],
       "answer": "Do, use"
     }
   ]
