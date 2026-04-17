@@ -1,5 +1,537 @@
 // auto-generated data for local practice web app
 const MIDTERM_DATA = {
+  "midterm_workbook_5p.json": {
+    "title": "중간고사",
+    "questions": [
+      {
+        "id": 93,
+        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Andy: {}, Max. What's {}?",
+        "options": [
+          "going",
+          "Hey",
+          "How",
+          "later",
+          "see",
+          "what's"
+        ],
+        "answer": "Hey, up",
+        "note": "두 번째 답은 보기의 what's를 활용한 표현 What's up으로 보임"
+      },
+      {
+        "id": 94,
+        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Max: Hello, Kevin! So, how's it {}? {} was your vacation?",
+        "options": [
+          "going",
+          "Hey",
+          "How",
+          "later",
+          "see",
+          "what's"
+        ],
+        "answer": "going, How"
+      },
+      {
+        "id": 95,
+        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Kevin: Great, thanks! Well, I gotta go to the bookstore. I'll catch up with you {}.",
+        "options": [
+          "going",
+          "Hey",
+          "How",
+          "later",
+          "see",
+          "what's"
+        ],
+        "answer": "later"
+      },
+      {
+        "id": 96,
+        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Max: OK, {} you.",
+        "options": [
+          "going",
+          "Hey",
+          "How",
+          "later",
+          "see",
+          "what's"
+        ],
+        "answer": "see"
+      },
+      {
+        "id": 97,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Prof. Lopez: Max! Andy! {}!",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "Good afternoon"
+      },
+      {
+        "id": 98,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Max: {}, Professor Lopez.",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "Hello"
+      },
+      {
+        "id": 99,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Andy: {}?",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "How are you"
+      },
+      {
+        "id": 100,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Max: Uh ... {}, thanks!",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "We're fine"
+      },
+      {
+        "id": 101,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Prof. Lopez: Oh, excellent. Well, I'm going to a faculty meeting. {}!",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "Have a good weekend"
+      },
+      {
+        "id": 102,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Max: Thanks, you too! {}.",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "Nice to see you"
+      },
+      {
+        "id": 103,
+        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Andy: {}!",
+        "options": [
+          "We're fine",
+          "Hello",
+          "Have a good weekend",
+          "How are you",
+          "Nice to see you",
+          "Take care",
+          "Good afternoon"
+        ],
+        "answer": "Take care"
+      },
+      {
+        "id": 104,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Karen {} very formal.",
+        "options": [
+          "is",
+          "isn't"
+        ],
+        "answer": "is"
+      },
+      {
+        "id": 105,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "The speakers {} each other.",
+        "options": [
+          "know",
+          "don't know"
+        ],
+        "answer": "know"
+      },
+      {
+        "id": 106,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Ann {} more formal than Karen.",
+        "options": [
+          "is",
+          "isn't"
+        ],
+        "answer": "is"
+      },
+      {
+        "id": 107,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Both speakers {}.",
+        "options": [
+          "greet each other",
+          "have meetings"
+        ],
+        "answer": "greet each other"
+      },
+      {
+        "id": 108,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Karen {} to have a long conversation.",
+        "options": [
+          "wants",
+          "doesn't want"
+        ],
+        "answer": "doesn't want"
+      },
+      {
+        "id": 109,
+        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} ends the conversation.",
+        "options": [
+          "Karen",
+          "Ann"
+        ],
+        "answer": "Karen"
+      },
+      {
+        "id": 110,
+        "title": "Rewrite Ann's lines to make them more appropriate.",
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Ann: Good afternoon, Karen. How are you? / It's nice to see you. I want to talk to you about something.",
+        "options": [],
+        "answer": "Hi, Karen. How's it going? / OK. I'll catch up with you later.",
+        "note": "연필 답안이 보이지 않아 대화 맥락에 맞게 자연스럽게 재작성한 추정 답안"
+      }
+    ]
+  },
+   "midterm_4p.json": {
+    "title": "중간고사",
+    "questions": [
+      {
+        "id": 1,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "look forward to(be excited about)",
+        "options": [],
+        "answer": "기대하다"
+      },
+      {
+        "id": 2,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "keep in touch with(stay in contact with)",
+        "options": [],
+        "answer": "연락을 유지하다"
+      },
+      {
+        "id": 3,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "have an influence on(affect someone or something)",
+        "options": [],
+        "answer": "~에게 영향을 미치다"
+      },
+      {
+        "id": 4,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "look up to someone(admire)",
+        "options": [],
+        "answer": "존경하다"
+      },
+      {
+        "id": 5,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "deal with(manage (a difficult situation))",
+        "options": [],
+        "answer": "(어려운 상황을)다루다, 대처하다"
+      },
+      {
+        "id": 6,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "Somebody I really admire is my boss. I {} up to him a lot",
+        "options": [],
+        "answer": "look"
+      },
+      {
+        "id": 7,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "We sometimes disagree, but we always {} it out in the end.",
+        "options": [],
+        "answer": "work"
+      },
+      {
+        "id": 8,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "In my job, I need to {} with some difficult customers.",
+        "options": [],
+        "answer": "deal"
+      },
+      {
+        "id": 9,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "I {} forward to meeting next week.",
+        "options": [],
+        "answer": "look"
+      },
+      {
+        "id": 10,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "Facebook and other social media have an influence on how we communicate.",
+        "options": [],
+        "answer": "influence"
+      },
+      {
+        "id": 11,
+        "type": "fill_in_blank",
+        "page": "4",
+        "question": "Technology can help family members living away from each other to {} in touch.",
+        "options": [],
+        "answer": "keep"
+      }
+    ]
+  },
+  "midterm_5p.json": {
+    "title": "중간고사",
+    "questions": [
+      {
+        "id": 12,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "We use the {} to talk about routines and things that are always true.",
+        "options": [],
+        "answer": "simple present",
+        "note": "필기체가 옅지만 simple present로 보임"
+      },
+      {
+        "id": 13,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "We use the {} to talk about things happening now or around now.",
+        "options": [],
+        "answer": "present continuous",
+        "note": "필기체가 옅지만 present continuous로 보임"
+      },
+      {
+        "id": 14,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "We don’t usually use the present continuous with verbs that describe feelings, thoughts, states, and senses.",
+        "options": [],
+        "answer": "",
+        "note": "문장 전체가 연필로 표시된 것으로 보여 문제 문장 전체를 포함함"
+      },
+      {
+        "id": 15,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "present continuous = {}",
+        "options": [],
+        "answer": "be + Ving"
+      },
+      {
+        "id": 16,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "How we communicate always {} the way we interact with each other.",
+        "options": [
+          "shapes",
+          "is shaping"
+        ],
+        "answer": "shapes"
+      },
+      {
+        "id": 17,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Digital devices {} a huge influence on the way we work, learn, spend our leisure time, and communicate with each other.",
+        "options": [
+          "have",
+          "are having"
+        ],
+        "answer": "have"
+      },
+      {
+        "id": 18,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Research {} that, as a result, our sense of identity is {}.",
+        "options": [
+          "shows",
+          "is showing",
+          "is changing",
+          "changes"
+        ],
+        "answer": "shows, is changing"
+      },
+      {
+        "id": 19,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "These days, we all {} an online identity as well as our real identity.",
+        "options": [
+          "are having",
+          "have"
+        ],
+        "answer": "have"
+      },
+      {
+        "id": 20,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "Perhaps this is one reason why now some people {} to question the role of technology in our lives.",
+        "options": [
+          "start",
+          "are starting"
+        ],
+        "answer": "are starting"
+      },
+      {
+        "id": 21,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "They are {} to reject technology.",
+        "options": [
+          "choosing",
+          "choose"
+        ],
+        "answer": "choosing"
+      },
+      {
+        "id": 22,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "What {}?",
+        "options": [
+          "are you thinking",
+          "do you think"
+        ],
+        "answer": "do you think"
+      },
+      {
+        "id": 23,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} you {} text messages every day?",
+        "options": [],
+        "answer": "Do, send"
+      },
+      {
+        "id": 24,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} you {} of getting a new cell phone?",
+        "options": [],
+        "answer": "Are, thinking"
+      },
+      {
+        "id": 25,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} you {} too much time on the Internet during the week?",
+        "options": [],
+        "answer": "Do, spend"
+      },
+      {
+        "id": 26,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} you {} to check your email on your cell phone or tablet?",
+        "options": [],
+        "answer": "Do, prefer"
+      },
+      {
+        "id": 27,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "{} you {} any electronic devices with you right now?",
+        "options": [],
+        "answer": "Are, carrying",
+        "note": "두 번째 답은 carrying으로 보임"
+      },
+      {
+        "id": 28,
+        "type": "fill_in_blank",
+        "page": "5",
+        "question": "In general, {} you {} social media sites like Facebook a lot?",
+        "options": [],
+        "answer": "Do, use"
+      }
+    ]
+  },
   "midterm_13p.json": {
     "title": "중간고사",
     "questions": [
@@ -7,7 +539,7 @@ const MIDTERM_DATA = {
         "id": 29,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {}",
+        "question": "A: {} B: Sure. Take it easy.",
         "options": [],
         "answer": "Got to go. See you around",
         "note": "마침표 유무는 흐리지만 Got to go. See you around로 보임"
@@ -16,7 +548,7 @@ const MIDTERM_DATA = {
         "id": 30,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {}",
+        "question": "A: {} B: Of course. It was nite to see you.",
         "options": [],
         "answer": "It was great to see you, but it's getting late. I really should go.",
         "note": "필기상 일부가 흐리지만 Exercise 6 표현과 대조하면 이 문장으로 보임"
@@ -25,7 +557,7 @@ const MIDTERM_DATA = {
         "id": 31,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {}",
+        "question": "A: {} B: It's going OK, thanks.",
         "options": [],
         "answer": "How's it going"
       },
@@ -33,18 +565,63 @@ const MIDTERM_DATA = {
         "id": 32,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {}",
+        "question": "A: {} B: Nothing much.",
         "options": [],
         "answer": "What's up"
       },
       {
-        "id": 33,
+        "id": 1000,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {}",
+        "question": "Beginning the conversation && formal",
         "options": [],
-        "answer": "Hello. How are you?",
-        "note": "물음표는 원문 기준으로 보완했으나 필기상은 다소 흐림"
+        "answer": "Good afternoon.\nHello. How are you? (Fine, thanks.)",
+        "note": "2"
+      },
+      {
+        "id": 1001,
+        "type": "fill_in_blank",
+        "page": "13",
+        "question": "Beginning the conversation && medium",
+        "options": [],
+        "answer": "How’s it going? (It’s going okay.)",
+        "note": "1"
+      },
+      {
+        "id": 1002,
+        "type": "fill_in_blank",
+        "page": "13",
+        "question": "Beginning the conversation && informal",
+        "options": [],
+        "answer": "Hey.\nWhat’s up? (Nothing much)",
+        "note": "2"
+      },
+      {
+        "id": 1003,
+        "type": "fill_in_blank",
+        "page": "13",
+        "question": "Ending the conversation && formal",
+        "options": [],
+        "answer": "It was great to see you, but it’s getting late.\nI really should go.\nIt was nice to see you.\nHave a nice weekend.",
+        "note": "4"
+      },
+      {
+        "id": 1004,
+        "type": "fill_in_blank",
+        "page": "13",
+        "question": "Ending the conversation && medium",
+        "options": [],
+        "answer": "Take care.\nSee you later.\nI’ll catch up with you later.",
+        "note": "3"
+      },
+      {
+        "id": 1005,
+        "type": "fill_in_blank",
+        "page": "13",
+        "question": "Ending the conversation && informal",
+        "options": [],
+        "answer": "Gotta go.\nTake it easy.\nSee you around!\nSee you.",
+        "note": "4"
       }
     ]
   },
@@ -416,538 +993,6 @@ const MIDTERM_DATA = {
         "question": "The {} time I go on vacation! I’m going somewhere hot. The weather here is so cold!",
         "options": [],
         "answer": "last"
-      }
-    ]
-  },
-  "midterm_4p.json": {
-    "title": "중간고사",
-    "questions": [
-      {
-        "id": 1,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "look forward to(be excited about)",
-        "options": [],
-        "answer": "기대하다"
-      },
-      {
-        "id": 2,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "keep in touch with(stay in contact with)",
-        "options": [],
-        "answer": "연락을 유지하다"
-      },
-      {
-        "id": 3,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "have an influence on(affect someone or something)",
-        "options": [],
-        "answer": "~에게 영향을 미치다"
-      },
-      {
-        "id": 4,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "look up to someone(admire)",
-        "options": [],
-        "answer": "존경하다"
-      },
-      {
-        "id": 5,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "deal with(manage (a difficult situation))",
-        "options": [],
-        "answer": "(어려운 상황을)다루다, 대처하다"
-      },
-      {
-        "id": 6,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "Somebody I really admire is my boss. I {} up to him a lot",
-        "options": [],
-        "answer": "look"
-      },
-      {
-        "id": 7,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "We sometimes disagree, but we always {} it out in the end.",
-        "options": [],
-        "answer": "work"
-      },
-      {
-        "id": 8,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "In my job, I need to {} with some difficult customers.",
-        "options": [],
-        "answer": "deal"
-      },
-      {
-        "id": 9,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "I {} forward to meeting next week.",
-        "options": [],
-        "answer": "look"
-      },
-      {
-        "id": 10,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "Facebook and other social media have an influence on how we communicate.",
-        "options": [],
-        "answer": "influence"
-      },
-      {
-        "id": 11,
-        "type": "fill_in_blank",
-        "page": "4",
-        "question": "Technology can help family members living away from each other to {} in touch.",
-        "options": [],
-        "answer": "keep"
-      }
-    ]
-  },
-  "midterm_5p.json": {
-    "title": "중간고사",
-    "questions": [
-      {
-        "id": 12,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "We use the {} to talk about routines and things that are always true.",
-        "options": [],
-        "answer": "simple present",
-        "note": "필기체가 옅지만 simple present로 보임"
-      },
-      {
-        "id": 13,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "We use the {} to talk about things happening now or around now.",
-        "options": [],
-        "answer": "present continuous",
-        "note": "필기체가 옅지만 present continuous로 보임"
-      },
-      {
-        "id": 14,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "We don’t usually use the present continuous with verbs that describe feelings, thoughts, states, and senses.",
-        "options": [],
-        "answer": "",
-        "note": "문장 전체가 연필로 표시된 것으로 보여 문제 문장 전체를 포함함"
-      },
-      {
-        "id": 15,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "present continuous = {}",
-        "options": [],
-        "answer": "be + Ving"
-      },
-      {
-        "id": 16,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "How we communicate always {} the way we interact with each other.",
-        "options": [
-          "shapes",
-          "is shaping"
-        ],
-        "answer": "shapes"
-      },
-      {
-        "id": 17,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Digital devices {} a huge influence on the way we work, learn, spend our leisure time, and communicate with each other.",
-        "options": [
-          "have",
-          "are having"
-        ],
-        "answer": "have"
-      },
-      {
-        "id": 18,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Research {} that, as a result, our sense of identity is {}.",
-        "options": [
-          "shows",
-          "is showing",
-          "is changing",
-          "changes"
-        ],
-        "answer": "shows, is changing"
-      },
-      {
-        "id": 19,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "These days, we all {} an online identity as well as our real identity.",
-        "options": [
-          "are having",
-          "have"
-        ],
-        "answer": "have"
-      },
-      {
-        "id": 20,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Perhaps this is one reason why now some people {} to question the role of technology in our lives.",
-        "options": [
-          "start",
-          "are starting"
-        ],
-        "answer": "are starting"
-      },
-      {
-        "id": 21,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "They are {} to reject technology.",
-        "options": [
-          "choosing",
-          "choose"
-        ],
-        "answer": "choosing"
-      },
-      {
-        "id": 22,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "What {}?",
-        "options": [
-          "are you thinking",
-          "do you think"
-        ],
-        "answer": "do you think"
-      },
-      {
-        "id": 23,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} you {} text messages every day?",
-        "options": [],
-        "answer": "Do, send"
-      },
-      {
-        "id": 24,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} you {} of getting a new cell phone?",
-        "options": [],
-        "answer": "Are, thinking"
-      },
-      {
-        "id": 25,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} you {} too much time on the Internet during the week?",
-        "options": [],
-        "answer": "Do, spend"
-      },
-      {
-        "id": 26,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} you {} to check your email on your cell phone or tablet?",
-        "options": [],
-        "answer": "Do, prefer"
-      },
-      {
-        "id": 27,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} you {} any electronic devices with you right now?",
-        "options": [],
-        "answer": "Are, carrying",
-        "note": "두 번째 답은 carrying으로 보임"
-      },
-      {
-        "id": 28,
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "In general, {} you {} social media sites like Facebook a lot?",
-        "options": [],
-        "answer": "Do, use"
-      }
-    ]
-  },
-  "midterm_workbook_5p.json": {
-    "title": "중간고사",
-    "questions": [
-      {
-        "id": 93,
-        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Andy: {}, Max. What's {}?",
-        "options": [
-          "going",
-          "Hey",
-          "How",
-          "later",
-          "see",
-          "what's"
-        ],
-        "answer": "Hey, up",
-        "note": "두 번째 답은 보기의 what's를 활용한 표현 What's up으로 보임"
-      },
-      {
-        "id": 94,
-        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Max: Hello, Kevin! So, how's it {}? {} was your vacation?",
-        "options": [
-          "going",
-          "Hey",
-          "How",
-          "later",
-          "see",
-          "what's"
-        ],
-        "answer": "going, How"
-      },
-      {
-        "id": 95,
-        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Kevin: Great, thanks! Well, I gotta go to the bookstore. I'll catch up with you {}.",
-        "options": [
-          "going",
-          "Hey",
-          "How",
-          "later",
-          "see",
-          "what's"
-        ],
-        "answer": "later"
-      },
-      {
-        "id": 96,
-        "title": "Complete the conversation from Scene 1 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Max: OK, {} you.",
-        "options": [
-          "going",
-          "Hey",
-          "How",
-          "later",
-          "see",
-          "what's"
-        ],
-        "answer": "see"
-      },
-      {
-        "id": 97,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Prof. Lopez: Max! Andy! {}!",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "Good afternoon"
-      },
-      {
-        "id": 98,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Max: {}, Professor Lopez.",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "Hello"
-      },
-      {
-        "id": 99,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Andy: {}?",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "How are you"
-      },
-      {
-        "id": 100,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Max: Uh ... {}, thanks!",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "We're fine"
-      },
-      {
-        "id": 101,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Prof. Lopez: Oh, excellent. Well, I'm going to a faculty meeting. {}!",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "Have a good weekend"
-      },
-      {
-        "id": 102,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Max: Thanks, you too! {}.",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "Nice to see you"
-      },
-      {
-        "id": 103,
-        "title": "Complete the conversation from Scene 2 of the video with the words in the box.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Andy: {}!",
-        "options": [
-          "We're fine",
-          "Hello",
-          "Have a good weekend",
-          "How are you",
-          "Nice to see you",
-          "Take care",
-          "Good afternoon"
-        ],
-        "answer": "Take care"
-      },
-      {
-        "id": 104,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Karen {} very formal.",
-        "options": [
-          "is",
-          "isn't"
-        ],
-        "answer": "is"
-      },
-      {
-        "id": 105,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "The speakers {} each other.",
-        "options": [
-          "know",
-          "don't know"
-        ],
-        "answer": "know"
-      },
-      {
-        "id": 106,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Ann {} more formal than Karen.",
-        "options": [
-          "is",
-          "isn't"
-        ],
-        "answer": "is"
-      },
-      {
-        "id": 107,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Both speakers {}.",
-        "options": [
-          "greet each other",
-          "have meetings"
-        ],
-        "answer": "greet each other"
-      },
-      {
-        "id": 108,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Karen {} to have a long conversation.",
-        "options": [
-          "wants",
-          "doesn't want"
-        ],
-        "answer": "doesn't want"
-      },
-      {
-        "id": 109,
-        "title": "Read the conversation. Then choose the correct words to complete the sentences.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "{} ends the conversation.",
-        "options": [
-          "Karen",
-          "Ann"
-        ],
-        "answer": "Karen"
-      },
-      {
-        "id": 110,
-        "title": "Rewrite Ann's lines to make them more appropriate.",
-        "type": "fill_in_blank",
-        "page": "5",
-        "question": "Ann: Good afternoon, Karen. How are you? / It's nice to see you. I want to talk to you about something.",
-        "options": [],
-        "answer": "Hi, Karen. How's it going? / OK. I'll catch up with you later.",
-        "note": "연필 답안이 보이지 않아 대화 맥락에 맞게 자연스럽게 재작성한 추정 답안"
       }
     ]
   },
@@ -1541,18 +1586,7 @@ const MIDTERM_DATA = {
       "choices": [],
       "answer": "wore",
       "note": "뜻: 입다, 착용하다"
-    },
-    {
-      "id": 160,
-      "title": "Irregular Verbs",
-      "source": "Document",
-      "section": "Irregular Verbs",
-      "page": "Level 5",
-      "type": "irregular_verb",
-      "prompt": "choose",
-      "choices": [],
-      "answer": "chose",
-      "note": "뜻: 선택하다"
     }
   ]
-};
+  }
+}
