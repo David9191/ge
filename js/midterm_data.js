@@ -15,7 +15,7 @@ const MIDTERM_DATA = {
           "How",
           "later",
           "see",
-          "what's"
+          "up"
         ],
         "answer": "Hey, up",
         "note": "두 번째 답은 보기의 what's를 활용한 표현 What's up으로 보임"
@@ -32,7 +32,7 @@ const MIDTERM_DATA = {
           "How",
           "later",
           "see",
-          "what's"
+          "up"
         ],
         "answer": "going, How"
       },
@@ -48,7 +48,7 @@ const MIDTERM_DATA = {
           "How",
           "later",
           "see",
-          "what's"
+          "up"
         ],
         "answer": "later"
       },
@@ -64,7 +64,7 @@ const MIDTERM_DATA = {
           "How",
           "later",
           "see",
-          "what's"
+          "up"
         ],
         "answer": "see"
       },
