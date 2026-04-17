@@ -45,49 +45,57 @@
             "id": 6,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "Somebody I really admire is my boss. I {} up to him a lot",
+            "question": "deal with(manage (a difficult situation))",
             "options": [],
-            "answer": "look"
+            "answer": "(어려운 상황을)다루다, 대처하다"
         },
         {
             "id": 7,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "We sometimes disagree, but we always {} it out in the end.",
+            "question": "Somebody I really admire is my boss. I {} him a lot",
             "options": [],
-            "answer": "work"
+            "answer": "look up to"
         },
         {
             "id": 8,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "In my job, I need to {} with some difficult customers.",
+            "question": "We sometimes disagree, but we always {} in the end.",
             "options": [],
-            "answer": "deal"
+            "answer": "work it out"
         },
         {
             "id": 9,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "I {} forward to meeting next week.",
+            "question": "In my job, I need to {} some difficult customers.",
             "options": [],
-            "answer": "look"
+            "answer": "deal with"
         },
         {
             "id": 10,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "Facebook and other social media have an influence on how we communicate.",
+            "question": "I {} meeting next week.",
             "options": [],
-            "answer": "influence"
+            "answer": "look forward to"
         },
         {
             "id": 11,
             "type": "fill_in_blank",
             "page": "4",
-            "question": "Technology can help family members living away from each other to {} in touch.",
+            "question": "Facebook and other social media {} on how we communicate.",
             "options": [],
-            "answer": "keep"
+            "answer": "have an influence"
+        },
+        {
+            "id": 12,
+            "type": "fill_in_blank",
+            "page": "4",
+            "question": "Technology can help family members living away from each other to {}.",
+            "options": [],
+            "answer": "keep in touch"
         }
     ]
 }

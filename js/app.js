@@ -13,6 +13,8 @@ const noteArea = document.getElementById('noteArea');
 const checkButton = document.getElementById('checkButton');
 const showAnswerButton = document.getElementById('showAnswerButton');
 const nextButton = document.getElementById('nextButton');
+const previousButton = document.getElementById('previousButton');
+const prevNavButton = document.getElementById('prevNavButton');
 const progressLabel = document.getElementById('progressLabel');
 const scoreLabel = document.getElementById('scoreLabel');
 const resultMessage = document.getElementById('resultMessage');
@@ -22,6 +24,7 @@ const wrongListContainer = document.getElementById('wrongListContainer');
 const wrongList = document.getElementById('wrongList');
 
 const STORAGE_KEY = 'midtermPracticeWrongIds';
+const SOLVED_KEY = 'midtermPracticeSolvedIds';
 const allQuestions = [];
 let currentQuestions = [];
 let currentIndex = 0;
@@ -29,7 +32,9 @@ let correctCount = 0;
 let incorrectCount = 0;
 let currentMode = 'all';
 let wrongIds = new Set(loadWrongIds());
+let solvedIds = new Set(loadSolvedIds());
 let reviewMode = false;
+let previousMode = false;
 
 function normalizeAnswer(value) {
   return value
@@ -53,6 +58,19 @@ function loadWrongIds() {
 
 function saveWrongIds() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify([...wrongIds]));
+}
+
+function loadSolvedIds() {
+  try {
+    const saved = localStorage.getItem(SOLVED_KEY);
+    return saved ? JSON.parse(saved) : [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function saveSolvedIds() {
+  localStorage.setItem(SOLVED_KEY, JSON.stringify([...solvedIds]));
 }
 
 function buildData() {
@@ -105,8 +123,8 @@ function applyFilters() {
     if (selectedPage !== 'all' && String(question.page) !== String(selectedPage)) return false;
     if (currentMode === 'input' && Array.isArray(question.options) && question.options.length > 0) return false;
     if (currentMode === 'choice' && (!Array.isArray(question.options) || question.options.length === 0)) return false;
-    if (currentMode === 'note' && !question.note) return false;
     if (reviewMode && !wrongIds.has(question.id)) return false;
+    if (previousMode && !solvedIds.has(question.id)) return false;
     return true;
   });
 
@@ -115,6 +133,9 @@ function applyFilters() {
     modeLabel.textContent = '오답 복습 모드';
     sourceLabel.textContent = '오답 문제만 표시합니다.';
     pageLabel.textContent = '';
+  } else if (previousMode) {
+    sourceLabel.textContent = '이전 풀이 모드';
+    pageLabel.textContent = '이전에 풀었던 문제들을 표시합니다.';
   } else {
     sourceLabel.textContent = `범위: ${selectedSource === 'all' ? '전체' : selectedSource.replace('.json', '')}`;
     pageLabel.textContent = `페이지: ${selectedPage === 'all' ? '전체' : selectedPage + 'p'}`;
@@ -153,11 +174,6 @@ function renderQuestion() {
   sourceLabel.textContent = `범위: ${question.sourceLabel}`;
   pageLabel.textContent = `페이지: ${question.page || '-'}`;
 
-  if (question.note) {
-    noteArea.textContent = `노트: ${question.note}`;
-    noteArea.classList.remove('hidden');
-  }
-
   if (Array.isArray(question.options) && question.options.length > 0) {
     const shuffled = [...question.options].sort(() => Math.random() - 0.5);
     const fieldset = document.createElement('div');
@@ -182,7 +198,27 @@ function renderQuestion() {
     input.type = 'text';
     input.id = 'freeInput';
     input.placeholder = '정답을 입력하세요.';
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        checkAnswer();
+      } else if (e.key === '<') {
+        e.preventDefault();
+        if (currentIndex > 0) {
+          currentIndex -= 1;
+          renderQuestion();
+        }
+      } else if (e.key === '>') {
+        e.preventDefault();
+        if (currentIndex < currentQuestions.length - 1) {
+          currentIndex += 1;
+          renderQuestion();
+        } else {
+          showSummary();
+        }
+      }
+    });
     answerArea.appendChild(input);
+    input.focus();
   }
 
   renderProgress();
@@ -215,14 +251,18 @@ function isCorrectAnswer(inputValue, answerText) {
 
 function markWrong(questionId) {
   wrongIds.add(questionId);
+  solvedIds.add(questionId);
   saveWrongIds();
+  saveSolvedIds();
 }
 
 function markCorrect(questionId) {
+  solvedIds.add(questionId);
   if (wrongIds.has(questionId)) {
     wrongIds.delete(questionId);
     saveWrongIds();
   }
+  saveSolvedIds();
 }
 
 function checkAnswer() {
@@ -288,6 +328,7 @@ function showSummary() {
 
 function resetSession() {
   reviewMode = false;
+  previousMode = false;
   currentIndex = 0;
   correctCount = 0;
   incorrectCount = 0;
@@ -308,10 +349,23 @@ function loadQuestions() {
 
 function reviewWrong() {
   reviewMode = true;
+  previousMode = false;
   applyFilters();
   resetSession();
   if (currentQuestions.length === 0) {
     questionText.textContent = '오답으로 저장된 문제가 없습니다.';
+    return;
+  }
+  renderQuestion();
+}
+
+function reviewPrevious() {
+  previousMode = true;
+  reviewMode = false;
+  applyFilters();
+  resetSession();
+  if (currentQuestions.length === 0) {
+    questionText.textContent = '이전에 풀었던 문제가 없습니다.';
     return;
   }
   renderQuestion();
@@ -328,6 +382,20 @@ function clearWrong() {
 
 loadButton.addEventListener('click', loadQuestions);
 reviewButton.addEventListener('click', reviewWrong);
+console.log('previousButton:', previousButton);
+previousButton.addEventListener('click', () => {
+  console.log('이전 문제 버튼 클릭');
+  if (currentIndex > 0) {
+    currentIndex -= 1;
+    renderQuestion();
+  }
+});
+prevNavButton.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex -= 1;
+    renderQuestion();
+  }
+});
 restartButton.addEventListener('click', loadQuestions);
 clearWrongButton.addEventListener('click', clearWrong);
 checkButton.addEventListener('click', checkAnswer);

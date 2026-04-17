@@ -34,12 +34,12 @@
           <option value="all">전체</option>
           <option value="input">자유입력형</option>
           <option value="choice">보기형</option>
-          <option value="note">노트 있는 문제</option>
         </select>
       </div>
       <div class="control-group button-row">
-        <button id="loadButton" type="button">문제 불러오기</button>
+        <button id="loadButton" type="button">불러오기</button>
         <button id="reviewButton" type="button">오답 복습</button>
+        <button id="previousButton" type="button">이전 풀이</button>
       </div>
     </section>
 
@@ -52,6 +52,7 @@
       <div id="answerArea" class="answer-area"></div>
       <div id="noteArea" class="note-area hidden"></div>
       <div class="action-row">
+        <button id="prevNavButton" type="button">이전 문제</button>
         <button id="checkButton" type="button">정답 확인</button>
         <button id="showAnswerButton" type="button">정답 보기</button>
         <button id="nextButton" type="button">다음 문제</button>
