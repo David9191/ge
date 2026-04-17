@@ -5,7 +5,7 @@
       "id": 29,
       "type": "fill_in_blank",
       "page": "13",
-      "question": "A: {} B: It was great to see you, but it's getting late. I really should go.",
+      "question": "A: {} B: Sure. Take it easy.",
       "options": [],
       "answer": "Got to go. See you around",
       "note": "마침표 유무는 흐리지만 Got to go. See you around로 보임"
@@ -14,7 +14,7 @@
       "id": 30,
       "type": "fill_in_blank",
       "page": "13",
-      "question": "A: {}",
+      "question": "A: {} B: Of course. It was nite to see you.",
       "options": [],
       "answer": "It was great to see you, but it's getting late. I really should go.",
       "note": "필기상 일부가 흐리지만 Exercise 6 표현과 대조하면 이 문장으로 보임"
@@ -23,7 +23,7 @@
       "id": 31,
       "type": "fill_in_blank",
       "page": "13",
-      "question": "A: {}",
+      "question": "A: {} B: It's going OK, thanks.",
       "options": [],
       "answer": "How's it going"
     },
@@ -31,18 +31,63 @@
       "id": 32,
       "type": "fill_in_blank",
       "page": "13",
-      "question": "A: {}",
+      "question": "A: {} B: Nothing much.",
       "options": [],
       "answer": "What's up"
     },
     {
-      "id": 33,
+      "id": 1000,
       "type": "fill_in_blank",
       "page": "13",
-      "question": "A: {}",
+      "question": "Beginning the conversation && formal",
       "options": [],
-      "answer": "Hello. How are you?",
-      "note": "물음표는 원문 기준으로 보완했으나 필기상은 다소 흐림"
+      "answer": "Good afternoon.\nHello. How are you? (Fine, thanks.)",
+      "note": "2"
+    },
+    {
+      "id": 1001,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "Beginning the conversation && medium",
+      "options": [],
+      "answer": "How’s it going? (It’s going okay.)",
+      "note": "1"
+    },
+    {
+      "id": 1002,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "Beginning the conversation && informal",
+      "options": [],
+      "answer": "Hey.\nWhat’s up? (Nothing much)",
+      "note": "2"
+    },
+    {
+      "id": 1003,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "Ending the conversation && formal",
+      "options": [],
+      "answer": "It was great to see you, but it’s getting late.\nI really should go.\nIt was nice to see you.\nHave a nice weekend.",
+      "note": "4"
+    },
+    {
+      "id": 1004,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "Ending the conversation && medium",
+      "options": [],
+      "answer": "Take care.\nSee you later.\nI’ll catch up with you later.",
+      "note": "3"
+    },
+    {
+      "id": 1005,
+      "type": "fill_in_blank",
+      "page": "13",
+      "question": "Ending the conversation && informal",
+      "options": [],
+      "answer": "Gotta go.\nTake it easy.\nSee you around!\nSee you.",
+      "note": "4"
     }
   ]
 }
