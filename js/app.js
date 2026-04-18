@@ -1,7 +1,5 @@
 // Test
 const sourceSelect = document.getElementById('sourceSelect');
-const pageSelect = document.getElementById('pageSelect');
-const modeSelect = document.getElementById('modeSelect');
 const loadButton = document.getElementById('loadButton');
 const reviewButton = document.getElementById('reviewButton');
 const restartButton = document.getElementById('restartButton');
@@ -30,7 +28,6 @@ let currentQuestions = [];
 let currentIndex = 0;
 let correctCount = 0;
 let incorrectCount = 0;
-let currentMode = 'all';
 let wrongIds = new Set(loadWrongIds());
 let solvedIds = new Set(loadSolvedIds());
 let reviewMode = false;
@@ -104,33 +101,19 @@ function populateControls() {
     sourceSelect.appendChild(option);
   });
 
-  pageSelect.innerHTML = '<option value="all">전체 페이지</option>';
-  getUniquePages().forEach((page) => {
-    const option = document.createElement('option');
-    option.value = page;
-    option.textContent = page + 'p';
-    pageSelect.appendChild(option);
-  });
 }
 
 function applyFilters() {
   const selectedSource = sourceSelect.value;
-  const selectedPage = pageSelect.value;
-  currentMode = modeSelect.value;
 
   currentQuestions = allQuestions.filter((question) => {
     if (selectedSource !== 'all' && question.sourceFile !== selectedSource) return false;
-    if (selectedPage !== 'all' && String(question.page) !== String(selectedPage)) return false;
-    if (currentMode === 'input' && Array.isArray(question.options) && question.options.length > 0) return false;
-    if (currentMode === 'choice' && (!Array.isArray(question.options) || question.options.length === 0)) return false;
     if (reviewMode && !wrongIds.has(question.id)) return false;
     if (previousMode && !solvedIds.has(question.id)) return false;
     return true;
   });
 
   if (reviewMode) {
-    const modeLabel = document.createElement('strong');
-    modeLabel.textContent = '오답 복습 모드';
     sourceLabel.textContent = '오답 문제만 표시합니다.';
     pageLabel.textContent = '';
   } else if (previousMode) {
@@ -138,7 +121,7 @@ function applyFilters() {
     pageLabel.textContent = '이전에 풀었던 문제들을 표시합니다.';
   } else {
     sourceLabel.textContent = `범위: ${selectedSource === 'all' ? '전체' : selectedSource.replace('.json', '')}`;
-    pageLabel.textContent = `페이지: ${selectedPage === 'all' ? '전체' : selectedPage + 'p'}`;
+    pageLabel.textContent = '';
   }
 }
 
@@ -150,7 +133,7 @@ function renderProgress() {
 
 function renderQuestion() {
   if (currentQuestions.length === 0) {
-    questionText.textContent = '조건에 맞는 문제가 없습니다. 다른 범위나 유형을 선택해 주세요.';
+    questionText.textContent = '조건에 맞는 문제가 없습니다. 다른 범위를 선택해 주세요.';
     answerArea.innerHTML = '';
     noteArea.classList.add('hidden');
     resultMessage.textContent = '';
