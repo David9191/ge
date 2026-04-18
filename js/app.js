@@ -174,13 +174,18 @@ function renderQuestion() {
   sourceLabel.textContent = `범위: ${question.sourceLabel}`;
   pageLabel.textContent = `페이지: ${question.page || '-'}`;
 
+  prevNavButton.classList.remove('hidden');
+  nextButton.classList.remove('hidden');
+
   const hasAnswer = question.answer != null && String(question.answer).trim() !== '';
   if (!hasAnswer) {
+    checkButton.classList.add('hidden');
     showAnswerButton.classList.add('hidden');
     renderProgress();
     return;
   }
 
+  checkButton.classList.remove('hidden');
   showAnswerButton.classList.remove('hidden');
   if (Array.isArray(question.options) && question.options.length > 0) {
     const shuffled = [...question.options].sort(() => Math.random() - 0.5);
@@ -351,6 +356,10 @@ function showSummary() {
   noteArea.classList.add('hidden');
   resultMessage.textContent = '';
   progressLabel.textContent = '완료됨';
+  checkButton.classList.add('hidden');
+  showAnswerButton.classList.add('hidden');
+  prevNavButton.classList.add('hidden');
+  nextButton.classList.add('hidden');
 }
 
 function resetSession() {
