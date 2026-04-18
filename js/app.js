@@ -235,10 +235,23 @@ function getCurrentAnswer() {
 function isCorrectAnswer(inputValue, answerText) {
   const normalizedInput = normalizeAnswer(inputValue);
   if (!normalizedInput) return false;
-  
+
+  const normalizedAnswerText = normalizeAnswer(answerText);
+  if (normalizedInput === normalizedAnswerText) {
+    return true;
+  }
+
   const answerVariants = answerText.split(/[\/,]+/).map(part => normalizeAnswer(part.trim())).filter(Boolean);
-  
-  // 입력값이 정답 변형 중 하나와 정확히 일치하는지 확인
+
+  if (answerVariants.length > 1) {
+    const joinedWithSpace = answerVariants.join(' ');
+    const joinedWithComma = answerVariants.join(', ');
+    if (normalizedInput === joinedWithSpace || normalizedInput === joinedWithComma) {
+      return true;
+    }
+  }
+
+  // 입력값이 개별 정답 변형 중 하나와 정확히 일치하는지 확인
   return answerVariants.some(answerPart => answerPart === normalizedInput);
 }
 
