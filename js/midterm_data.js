@@ -948,7 +948,7 @@ const MIDTERM_DATA = {
         "page": "20",
         "question": "The {} time I go on vacation! I’m going somewhere hot. The weather here is so cold!",
         "options": [],
-        "answer": "last"
+        "answer": "next"
       }
     ]
   },
