@@ -268,9 +268,9 @@ const MIDTERM_DATA = {
         "id": 10,
         "type": "fill_in_blank",
         "page": "4",
-        "question": "Facebook and other social media have an influence on how we communicate.",
+        "question": "Facebook and other social media {} an influence on how we communicate.",
         "options": [],
-        "answer": "influence"
+        "answer": "have"
       },
       {
         "id": 11,
@@ -346,7 +346,7 @@ const MIDTERM_DATA = {
         "id": 18,
         "type": "fill_in_blank",
         "page": "5",
-        "question": "Research {} that, as a result, our sense of identity is {}.",
+        "question": "Research {} that, as a result, our sense of identity {}.",
         "options": [
           "shows",
           "is showing",
