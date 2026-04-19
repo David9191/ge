@@ -412,25 +412,53 @@ function clearWrong() {
   summarySection.classList.add('hidden');
 }
 
-loadButton.addEventListener('click', loadQuestions);
-reviewButton.addEventListener('click', reviewWrong);
-prevNavButton.addEventListener('click', () => {
-  console.log('이전 문제 버튼 클릭');
+function goToPreviousQuestion() {
   if (currentIndex > 0) {
     currentIndex -= 1;
     renderQuestion();
   }
+}
+
+function goToNextQuestion() {
+  if (currentIndex < currentQuestions.length - 1) {
+    currentIndex += 1;
+    renderQuestion();
+  } else {
+    showSummary();
+  }
+}
+
+function isKeyboardNavigationAllowed(event) {
+  const target = event.target;
+  if (!target) return true;
+  const tag = target.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || target.isContentEditable) {
+    return false;
+  }
+  return true;
+}
+
+loadButton.addEventListener('click', loadQuestions);
+reviewButton.addEventListener('click', reviewWrong);
+prevNavButton.addEventListener('click', () => {
+  goToPreviousQuestion();
 });
 restartButton.addEventListener('click', loadQuestions);
 clearWrongButton.addEventListener('click', clearWrong);
 checkButton.addEventListener('click', checkAnswer);
 showAnswerButton.addEventListener('click', showAnswer);
 nextButton.addEventListener('click', () => {
-  if (currentIndex < currentQuestions.length - 1) {
-    currentIndex += 1;
-    renderQuestion();
-  } else {
-    showSummary();
+  goToNextQuestion();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (!isKeyboardNavigationAllowed(event)) return;
+  if (event.key === 'ArrowLeft') {
+    event.preventDefault();
+    goToPreviousQuestion();
+  } else if (event.key === 'ArrowRight') {
+    event.preventDefault();
+    goToNextQuestion();
   }
 });
 
