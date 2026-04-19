@@ -466,7 +466,7 @@ const MIDTERM_DATA = {
         "id": 30,
         "type": "fill_in_blank",
         "page": "13",
-        "question": "A: {} B: Of course. It was nite to see you.",
+        "question": "A: {} B: Of course. It was nice to see you.",
         "options": [],
         "answer": "It was great to see you, but it's getting late. I really should go.",
         "note": "필기상 일부가 흐리지만 Exercise 6 표현과 대조하면 이 문장으로 보임"
