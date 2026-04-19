@@ -636,7 +636,7 @@ const MIDTERM_DATA = {
         "id": 51,
         "type": "fill_in_blank",
         "page": "17",
-        "question": "I grew up in a small village. There {} only 4,000 people! It was a friendly place, and I liked it, but I remember {} a lot to do after school or on weekends. There {} any big stores, for example, and there {} a movie theater either. When I went back recently, I was surprised. It was so different! There {} a huge shopping center, a new sports stadium, and even a hotel. There {} lots of new houses and people everywhere. To be honest, I don’t think I like it anymore!",
+        "question": "I grew up in a small village. {} only 4,000 people! It was a friendly place, and I liked it, but I remember {} a lot to do after school or on weekends. {} any big stores, for example, and {} a movie theater either. When I went back recently, I was surprised. It was so different! {} a huge shopping center, a new sports stadium, and even a hotel. {} lots of new houses and people everywhere. To be honest, I don’t think I like it anymore!",
         "options": [
           "was",
           "were",
@@ -647,7 +647,7 @@ const MIDTERM_DATA = {
           "there wasn't",
           "there weren't"
         ],
-        "answer": "was, were, wasn't, there was, there were, weren't, there weren't, there wasn't"
+        "answer": "there were, there wasn't, there weren't, there wasn't, there was, there were"
       },
       {
         "id": 52,
