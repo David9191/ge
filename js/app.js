@@ -214,7 +214,6 @@ function renderQuestion() {
       }
     });
     answerArea.appendChild(input);
-    input.focus();
   }
 
   renderProgress();
