@@ -645,16 +645,7 @@ const MIDTERM_DATA = {
         "type": "fill_in_blank",
         "page": "17",
         "question": "My family lived in Taiwan when I {} younger. We {} in the south for three years, and I really enjoyed my time there. Our apartment {} very large, but {} a small field nearby. I remember {} some banana trees in the field. They {} large trees, but they had lots of bananas. We lived in a city, and {} many places to play, so all the children from the neighborhood went to this field. Then one summer, the owner of the field cut down all the trees and built a parking lot. We were sad because {} anywhere to play.",
-        "options": [
-          "was",
-          "were",
-          "wasn't",
-          "there was",
-          "there were",
-          "there wasn't",
-          "there weren't",
-          "there wasn't"
-        ],
+        "options": [],
         "answer": "was, were, wasn't, there was, there were, weren't, there weren't, there wasn't"
       }
     ]
